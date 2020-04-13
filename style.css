@@ -15,7 +15,7 @@
 main {
   padding: 50px 0;
   width: 960px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 .box{
   position: relative;
@@ -23,24 +23,26 @@ main {
   border:1px solid #eee;
   width: 300px;
   padding:10px;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+.box:first-child,.box:nth-child(2){
+  margin-right: 30px;
 }
 .box-num{
   position: absolute;
   top:0;
   left:0;
   color: #fff;
-  background-color: orange;
+  background-color:#FF9A4B;
+  padding: 3px;
 }
 .box img{
   width: 280px;
 }
 .box h3{
-  line-height: 2;
+  line-height: 2.5;
 }
-.box:first-child,.box:nth-child(2){
-  margin-right: 30px;
-}
+
 
 
  
